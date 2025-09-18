@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class AddressBook {
     private ArrayList<BuddyInfo> listBuddy;
     public AddressBook(){
-        listBuddy = new ArrayList<BuddyInfo>();
+        this.listBuddy = new ArrayList<BuddyInfo>();
     }
 
 
@@ -22,6 +22,7 @@ public class AddressBook {
         AddressBook book = new AddressBook();
         book.addBuddy(buddy);
         book.removeBuddy(buddy);
+        System.out.println("hello");
     }
 
 
