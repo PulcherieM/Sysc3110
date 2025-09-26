@@ -17,6 +17,10 @@ public class AddressBook {
         return listBuddy.remove(buddy);
     }
 
+    public boolean sayhi(BuddyInfo buddy){
+        return true;
+    }
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
         AddressBook book = new AddressBook();
